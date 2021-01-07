@@ -102,6 +102,7 @@ sent_new_4[:] = [item for item in sent_new_4 if item != '']
 sent_new_5[:] = [item for item in sent_new_5 if item != '']
 
 
-print(*sent_new_5, *sent_new_4, *sent_new_3)
+print(*sent_new_5)
+#, *sent_new_4, *sent_new_3)
 
 
